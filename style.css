@@ -1,0 +1,14 @@
+:root{
+    --cor-de-fundo:#A52A2A;
+    --branco:#FFFFFF;
+    --preto:#000000;
+    --botao-ativo:#BEBEBE;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
