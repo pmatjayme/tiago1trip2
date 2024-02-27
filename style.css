@@ -22,3 +22,25 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+
+.titulo-principal{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+.botao{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-color: var(--branco);
+    color: var(--preto);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+}
