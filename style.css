@@ -3,6 +3,7 @@
     --branco:#FFFFFF;
     --preto:#000000;
     --botao-ativo:#000000be;
+    --botao: #e29696;
 }
 
 body{
@@ -46,6 +47,11 @@ body{
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
+}
+
+.ativo{
+background-color: var(--botao);
+border-bottom: 4px solid var(--botao);
 }
 
 .botao:first-child{
