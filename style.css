@@ -49,9 +49,17 @@ body{
     border-top: none;
 }
 
-.ativo{
+.botao.ativo{
 background-color: var(--botao);
 border-bottom: 4px solid var(--botao);
+}
+
+.aba-conteudo-ativo{
+display: block;
+}
+
+.aba-conteudo{
+    display: none;
 }
 
 .botao:first-child{
@@ -72,4 +80,20 @@ border-bottom: 4px solid var(--botao);
     .botao:last-child{
         border-radius: 0 30px 0 0;
     }
+}
+
+.abas-textos{
+    background-color: var(--botao);
+    padding: 40px;
+    border-radius: 0 0 30px 30px;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--preto);
 }
