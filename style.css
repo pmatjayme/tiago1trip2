@@ -80,6 +80,7 @@ display: block;
 .aba-conteudo-titulo-principal{
     font-size: 18px;
     text-align: center;
+    font-family: "Kode Mono", monospace;
 }
 
 .aba-conteudo-titulo-secundario{
@@ -128,6 +129,7 @@ display: block;
     text-align: right;
     margin-right: 1em;
     font-size: 20px;
+    font-family: "Kode Mono", monospace;
 }
 
 @media screen and (min-width: 768px){
