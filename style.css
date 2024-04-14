@@ -119,6 +119,11 @@ display: block;
     color: var(--preto);
 }
 
+.rodape-todos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .tiago{
     border-radius: 20px;
     width: 180px;
@@ -130,6 +135,7 @@ display: block;
     margin-right: 1em;
     font-size: 20px;
     font-family: "Kode Mono", monospace;
+    margin-top: auto;
 }
 
 @media screen and (min-width: 768px){
